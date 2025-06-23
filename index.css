@@ -1,0 +1,50 @@
+body{
+    background: skyblue;
+}
+.input-box{
+    background: #fff;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 300px auto;
+    display: flex;
+    text-align: center;
+}
+.input-box input{
+    width: 90%;
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    color: #001;
+}
+.input-box  img{
+    width: 35px;
+    cursor: pointer;
+}
+button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    display: inline-block;
+}
+.pass{
+    position: absolute;
+    font-size: larger;
+    text-align: center;
+    justify-content: center;
+    top: 54%;
+    left: 420px;
+}
+#p{
+    position: relative;
+    bottom: 300px;
+    left: 410px;
+    max-width: 500px;
+    font-size: larger;
+    display: none;
+}
+::placeholder{
+    font-size: 25px;
+}
